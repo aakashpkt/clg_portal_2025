@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/clg_portal_2025/static/css/main.9662d0d0.css",
+    "main.css": "/clg_portal_2025/static/css/main.e4bdb1bb.css",
     "main.js": "/clg_portal_2025/static/js/main.3a3079e0.js",
     "static/js/488.e407fc7c.chunk.js": "/clg_portal_2025/static/js/488.e407fc7c.chunk.js",
+    "static/media/background.jpg": "/clg_portal_2025/static/media/background.ec2506e37af167be810d.jpg",
     "index.html": "/clg_portal_2025/index.html",
-    "main.9662d0d0.css.map": "/clg_portal_2025/static/css/main.9662d0d0.css.map",
+    "main.e4bdb1bb.css.map": "/clg_portal_2025/static/css/main.e4bdb1bb.css.map",
     "main.3a3079e0.js.map": "/clg_portal_2025/static/js/main.3a3079e0.js.map",
     "488.e407fc7c.chunk.js.map": "/clg_portal_2025/static/js/488.e407fc7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9662d0d0.css",
+    "static/css/main.e4bdb1bb.css",
     "static/js/main.3a3079e0.js"
   ]
 }
