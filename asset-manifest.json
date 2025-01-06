@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/clg_portal_2025/static/css/main.9662d0d0.css",
+    "main.js": "/clg_portal_2025/static/js/main.afcb952f.js",
+    "static/js/488.e407fc7c.chunk.js": "/clg_portal_2025/static/js/488.e407fc7c.chunk.js",
+    "index.html": "/clg_portal_2025/index.html",
+    "main.9662d0d0.css.map": "/clg_portal_2025/static/css/main.9662d0d0.css.map",
+    "main.afcb952f.js.map": "/clg_portal_2025/static/js/main.afcb952f.js.map",
+    "488.e407fc7c.chunk.js.map": "/clg_portal_2025/static/js/488.e407fc7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9662d0d0.css",
+    "static/js/main.afcb952f.js"
+  ]
+}
