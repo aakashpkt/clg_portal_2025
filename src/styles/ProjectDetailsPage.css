@@ -1,0 +1,150 @@
+/* General Layout */
+.project-detail-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f7fc;
+  padding: 20px;
+}
+
+/* Header and Footer */
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+/* Content Area */
+.content-area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+  flex: 1;
+}
+
+.project-content {
+  width: 70%;
+  padding-right: 20px;
+}
+
+/* Tab Navigation */
+.tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+  background-color: #0056b3;
+}
+
+.tabs button.active {
+  background-color: #0056b3;
+  font-weight: bold;
+}
+
+/* Tab Content */
+.tab-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.tab-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.tab-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.clean-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-row {
+  padding-left: 20px;
+}
+
+.timeline-list {
+  margin-left: 20px;
+}
+
+.timeline-row dt {
+  font-weight: bold;
+}
+
+.timeline-row dd {
+  margin-bottom: 5px;
+}
+
+.timeline-row {
+  margin-bottom: 10px;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.right-sidebar h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.right-sidebar dl {
+  font-size: 1rem;
+}
+
+.right-sidebar dt {
+  font-weight: bold;
+}
+
+.right-sidebar dd {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .content-area {
+    flex-direction: column;
+  }
+
+  .project-content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .right-sidebar {
+    width: 100%;
+  }
+
+  .tabs {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

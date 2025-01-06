@@ -1,0 +1,150 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0; /* Fixed at the top */
+  z-index: ; /* Ensures it's above other elements */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #4e73df;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.inbox {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.profile-picnav {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 3px solid #ddd;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.username {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  z-index: 1010; /* Higher z-index than the navbar */
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f4f7fc;
+  border-radius: 8px;
+}
+
+.hamburger-icon {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%; /* Full-width for links in mobile view */
+    padding: 10px 0;
+    background-color: #333; /* Same background as navbar */
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .profile {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,141 @@
+/* General Styling */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.content-dash{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Dropdown Styling */
+.team-dropdown,
+.mentor-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.team-dropdown:focus,
+.mentor-dropdown:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Multi-Select Styling */
+.team-dropdown[multiple] {
+  height: 150px;
+  overflow-y: auto;
+}
+
+/* Confirm Button Styling */
+.confirm-selection-btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.confirm-selection-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Selected Team Member List */
+.team-member-list {
+  list-style: none;
+  padding: 0;
+}
+
+.team-member-item {
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-member-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Team Details Styling */
+.team-details-card ul {
+  list-style: none;
+  padding: 0;
+}
+.team-details-card li {
+  background-color: #eef8ee;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 1px solid #c8e6c9;
+}
+
+/* Mentor Communication */
+.mentor-message {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  resize: none;
+}
+
+.send-message-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.send-message-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
